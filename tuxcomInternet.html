@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg p-2 mb-2"><!--Este banner contiene el Logo y botones-->
         <div class="container-fluid">
             <a class="navbar-brand nav-link" href="#">
-                <img class="w-50 rounded-4 p-2 bg-info-subtle" src="../tuxcomInternet/img/logo/logo01.png"></a>
+                <img class="w-50 rounded-4 p-2 bg-light" src="../tuxcomInternet/img/logo/logo01.png"></a>
             <button class="navbar-toggler btn-nav" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><!--Este boton es responsivo-->
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item mb-2" style="margin-right: 10px;"><!--Contactos-->
-                        <button type="button" class="btn btn-info btn-gral" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-light btn-gral" data-bs-toggle="modal"
                             data-bs-target="#modalContacts"><img src="../tuxcomSolar/img/icons/person-lines-fill.svg">
                             <b>Contactos</b>
                         </button><!--Botón para abrir el modal de contactos-->
@@ -39,14 +39,13 @@
                                     <div class="modal-body text-center"><!--Contenido del modal-->
                                         <table class="text-center" style="margin: 0 auto;"><!--Tabla dentro del modal-->
                                             <tr>
-                                                <td class="w-25">
+                                                <td class=" mb-2 w-25">
                                                     <a href="tel:522871820331">
                                                         <button class="btn btn-gral btn-outline-dark">
                                                             <img src="../tuxcomSolar/img/icons/headset.svg">
-                                                            <b>Llama</b></button><!--Redirecciona a la llamada-->
+                                                            <b>Telefono</b></button><!--Redirecciona a la llamada-->
                                                     </a>
                                                 </td>
-                                                <!--Button EMail is pending-->
                                                 <td class="w-25">
                                                     <a href="https://wa.me/522871820331">
                                                         <button class="btn btn-gral btn-outline-success">
@@ -54,7 +53,16 @@
                                                             <b>WhatsApp</b></button><!--Redirecciona a cuenta dw Whats-->
                                                     </a>
                                                 </td>
-                                                <!--Button Messenger is pending-->
+                                            </tr>
+                                            <tr>
+                                                <td class="25">
+                                                    <a href="mailto:cuentas@tuxcom.net.mx?Subject=Me%20interesa%20el%20servicio">
+                                                        <button class="btn btn-gral btn-outline-danger">
+                                                            <img src="../tuxcomInternet/img/icons/envelope-at-fill.svg">
+                                                            <b>Correo</b>
+                                                        </button>
+                                                    </a>
+                                                </td>
                                             </tr>
                                         </table>
                                     </div>
@@ -67,7 +75,7 @@
                         </div>
                     </li>
                     <li class="nav-item mb-2" style="margin-right: 10px;"><!--Ubicacion-->
-                        <button type="button" class="btn btn-info btn-gral" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-light btn-gral" data-bs-toggle="modal"
                             data-bs-target="#modalMap"><img src="../tuxcomSolar/img/icons/geo-alt-fill.svg">
                             <b>Ubicación</b>
                         </button><!--Boton para abrir Ubicación-->
@@ -87,7 +95,7 @@
                                                 <td><p>Av. 3, entre Calle 1 y Calle 2, Fraccionamiento Costa Verde, S/N, CP 68370 San Juan Bautista Tuxtepec.</p></td>
                                             </tr>
                                             <tr>
-                                                <a href="https://www.google.com/maps/search/Av.+3,+entre+Calle+1+y+Calle+2,+Fraccionamiento+Costa+Verde,+S%2FN,+CP+68370+San+Juan+Bautista+Tuxtepec./@18.0987291,-96.1430077,14.25z?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" class="link-underline-danger">Google Maps</a>
+                                                <td><a href="https://www.google.com/maps/search/Av.+3,+entre+Calle+1+y+Calle+2,+Fraccionamiento+Costa+Verde,+S%2FN,+CP+68370+San+Juan+Bautista+Tuxtepec./@18.0987291,-96.1430077,14.25z?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" class="link-underline-danger">Mapas</a></td>
                                             </tr>
                                         </table>
                                     </div>
@@ -99,10 +107,10 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item mb-2"><!--About-->
-                        <button type="button" class="btn btn-info btn-gral" data-bs-toggle="modal"
+                    <li class="nav-item mb-2"><!--Legal-->
+                        <button type="button" class="btn btn-light btn-gral" data-bs-toggle="modal"
                             data-bs-target="#modalAbout"><img src="../tuxcomSolar/img/icons/file-earmark-person.svg">
-                            <b>Acerca De</b>
+                            <b>Legal</b>
                         </button><!--Boton para abrir Acerca De-->
                         <div class="modal fade" id="modalAbout" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true"><!--Formato del modal-->
@@ -114,8 +122,11 @@
                                     <div class="modal-body text-center"><!--Contenido del modal-->
                                         <table>
                                             <tr>
-                                                <td class="w-25"><a href="../tuxcomInternet/docs/carta_de_derechos_minimos_de_los_usuarios_de_los_usuarios_publicos_de_telecomunicaciones.pdf" class="link-underline-primary">Carta de derechos de los usuarios.pdf</a></td>
-                                                <td class="w-25"><a href="../tuxcomInternet/docs/codigo_practicas_comerciales.pdf" class="link-underline-primary">Código de prácticas comerciales.pdf</a></td>
+                                                <td class="w-25"><button type="button" class="btn"><a href="../tuxcomInternet/docs/carta_de_derechos_minimos_de_los_usuarios_de_los_usuarios_publicos_de_telecomunicaciones.pdf" class="link-underline-primary">Carta de derechos de los usuarios.pdf</a></button></td>
+                                                <td class="w-25"><button type="button" class="btn"><a href="../tuxcomInternet/docs/codigo_practicas_comerciales.pdf" class="link-underline-primary">Código de prácticas comerciales.pdf</a></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" style="font-size: 12px;">*Volver a cargar la página si no abre el link</td>
                                             </tr>
                                         </table>
                                     </div>
@@ -130,7 +141,7 @@
     </nav>
 
     <div class="mb-3 text-center">
-        <img src="../tuxcomInternet/img/gral/example1.jpeg" style="margin: 0 auto;" class="w-25">
+        <img src="../tuxcomInternet/img/gral/example1.jpeg" style="margin: 0 auto;" class="w-50">
     </div>
 
     <div id="carouselExample" class="carousel slide mb-3">
@@ -159,7 +170,7 @@
     </div>
 
     <div class="text-Bw bg-div mb-4 text-center"><!--Copyright-->
-        <p>&copy; 2024 TUXCOM SOLAR</p>
+        <p>&copy; 2024 TUXCOM INTERNET</p>
     </div>
     <script src="../tuxcomSolar/bootstrap/js/bootstrap.min.js"></script><!--Bootstrap JS-->
 </body>
