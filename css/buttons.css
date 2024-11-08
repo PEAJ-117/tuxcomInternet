@@ -1,0 +1,30 @@
+/*Here settings to buttons*/
+
+.btn-gral {
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.btn-nav {
+    font-size: 12px;
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.btn-prev {
+    background-image: url(../img/icons/caret-left-fill.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.btn-next {
+    background-image: url(../img/icons/caret-right-fill.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}

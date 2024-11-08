@@ -1,0 +1,17 @@
+/*Here settings to text*/
+.font-t {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.font-b {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.text-Bw {
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}

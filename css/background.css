@@ -1,0 +1,11 @@
+/* Here settings to backgrounds*/
+.bg-tuxcom {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:
+    url(../img/bg/0001.jpg);
+}
+
+.bg-div { /*Black div*/
+    background-color: black;
+}
